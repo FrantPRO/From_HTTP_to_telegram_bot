@@ -37,7 +37,6 @@ class BotComm:
         self.dp = Dispatcher(self.bot, self.update_queue)
 
         self.dp.add_handler(CommandHandler("start", self._start))
-        self.dp.add_handler(MessageHandler(Filters.text, self._echo_all))
         self.dp.add_error_handler(self._error)
 
     @cherrypy.tools.json_in()
