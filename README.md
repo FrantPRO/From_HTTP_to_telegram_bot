@@ -1,5 +1,5 @@
 # From HTTP to telegram bot
-Send message to telegram bot via http GET request
+Send message to telegram bot via http GET request.
 Based on CherryPy. Tested on HEROKU
 
 1. Register new bot or take your current token
